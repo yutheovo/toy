@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="40dp">
+    <Button android:id="@+id/btn_low" android:text="低档 (51)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp"/>
+    <Button android:id="@+id/btn_mid" android:text="中档 (77)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp"/>
+    <Button android:id="@+id/btn_high" android:text="高档 (100)" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp"/>
+    <Button android:id="@+id/btn_stop" android:text="停止" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:backgroundTint="#FF0000"/>
+</LinearLayout>
